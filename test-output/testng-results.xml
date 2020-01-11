@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Application Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Pass]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfull]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38183" started-at="2020-01-11T13:57:22Z" finished-at="2020-01-11T13:58:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38183" started-at="2020-01-11T13:57:22Z" finished-at="2020-01-11T13:58:00Z">
+      <class name="driverFactory.OhrmDataDriven">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:driverFactory.OhrmDataDriven@5c7fa833]" name="Launch" is-config="true" duration-ms="11654" started-at="2020-01-11T19:27:22Z" finished-at="2020-01-11T19:27:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="login()[pri:0, instance:driverFactory.OhrmDataDriven@5c7fa833]" name="login" duration-ms="8565" started-at="2020-01-11T19:27:33Z" finished-at="2020-01-11T19:27:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="addemployee()[pri:1, instance:driverFactory.OhrmDataDriven@5c7fa833]" name="addemployee" duration-ms="15945" started-at="2020-01-11T19:27:42Z" finished-at="2020-01-11T19:27:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addemployee -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:driverFactory.OhrmDataDriven@5c7fa833]" name="logout" is-config="true" duration-ms="1989" started-at="2020-01-11T19:27:58Z" finished-at="2020-01-11T19:28:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- driverFactory.OhrmDataDriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
